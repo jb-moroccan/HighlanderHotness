@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/yourMedsText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="454dp"
+        android:layout_marginEnd="224dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="17dp"
+        android:text="Your Meds"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ListView
+        android:id="@+id/medsList"
+        android:layout_width="368dp"
+        android:layout_height="312dp"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="84dp" />
+
+    <Button
+        android:id="@+id/addNewMed"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Add New Med"
+        tools:layout_editor_absoluteX="33dp"
+        tools:layout_editor_absoluteY="426dp" />
+
+</android.support.constraint.ConstraintLayout>
